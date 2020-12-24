@@ -1,9 +1,5 @@
 def age_input():
     age = int(input("Enter your age:"))
-    return age_validator(age)
-
-
-def age_validator(age):
     try:
         if age < 0:
             raise ValueError
